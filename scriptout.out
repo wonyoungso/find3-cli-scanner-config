@@ -1,0 +1,11 @@
+2019-05-01 14:28:36 [36m[INFO][0m main.go func1:186 scanning with wlan1 
+2019-05-01 14:28:36 [36m[INFO][0m main.go func1:189 scanning bluetooth 
+2019-05-01 14:28:36 [36m[INFO][0m main.go func1:195 working in passive mode 
+2019-05-01 14:28:48 [36m[INFO][0m reverse.go ReverseScan:23 collected 53 packets 
+2019-05-01 14:28:50 [36m[INFO][0m main.go func1:186 scanning with wlan1 
+2019-05-01 14:28:50 [36m[INFO][0m main.go func1:189 scanning bluetooth 
+2019-05-01 14:28:50 [36m[INFO][0m main.go func1:195 working in passive mode 
+2019-05-01 14:29:00 [36m[INFO][0m reverse.go ReverseScan:23 collected 53 packets 
+2019-05-01 14:29:01 [36m[INFO][0m main.go func1:186 scanning with wlan1 
+2019-05-01 14:29:01 [36m[INFO][0m main.go func1:189 scanning bluetooth 
+2019-05-01 14:29:01 [36m[INFO][0m main.go func1:195 working in passive mode 
