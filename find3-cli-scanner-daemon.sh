@@ -9,18 +9,13 @@ echo "System Started"
 ifconfig wlan0 down
 ifconfig wlan1 down
 echo "All Wifi is down"
-iwconfig wlan0 mode monitor | grep failed
-if ($? -eq 0); then
-	monitorID="wlan1"
-else
-	monitorID="wlan0"
-fi
+iwconfig wlan0 mode monitor
 iwconfig wlan1 mode monitor
 ifconfig wlan0 up
 ifconfig wlan1 up
 echo "Wifi is up"
-echo "monitor id is ${monitorID}"
 
+monitorID="wlan1"
 sleep 15
 docker stop scanner
 docker rm scanner
